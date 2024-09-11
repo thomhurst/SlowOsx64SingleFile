@@ -28,6 +28,7 @@ public class Benchmarks
     {
         await Cli.Wrap(System.IO.Path.Combine(Path, "singlefile-publish", GetExecutableFileName()))
             .WithStandardOutputPipe(PipeTarget.ToStream(_outputStream))
+            .WithValidation(CommandResultValidation.None)
             .ExecuteAsync();
     }
 
@@ -38,6 +39,7 @@ public class Benchmarks
             .WithArguments(["run", "--no-build", "-c", "Release"])
             .WithWorkingDirectory(Path)
             .WithStandardOutputPipe(PipeTarget.ToStream(_outputStream))
+            .WithValidation(CommandResultValidation.None)
             .ExecuteAsync();
     }
 
