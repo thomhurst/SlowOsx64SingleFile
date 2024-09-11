@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlowOsx64SingleFile", "SlowOsx64SingleFile\SlowOsx64SingleFile.csproj", "{470D2101-72A3-42AA-972C-1771A1DA768A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{68F1D159-D4B9-4D9B-9A57-AE24C7701D29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{470D2101-72A3-42AA-972C-1771A1DA768A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470D2101-72A3-42AA-972C-1771A1DA768A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470D2101-72A3-42AA-972C-1771A1DA768A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470D2101-72A3-42AA-972C-1771A1DA768A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F1D159-D4B9-4D9B-9A57-AE24C7701D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F1D159-D4B9-4D9B-9A57-AE24C7701D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F1D159-D4B9-4D9B-9A57-AE24C7701D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F1D159-D4B9-4D9B-9A57-AE24C7701D29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
